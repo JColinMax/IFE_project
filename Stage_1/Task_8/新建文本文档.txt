@@ -1,0 +1,10 @@
+这个是正则的css
+比如class*="col-"，表示所有css以col开始的都使用这个规则，
+由于bootstrap里面很多cssname=col-xxx-xxx
+所以这个css是为了定义所有col-xxx-xxx的规则的
+
+@media screen and (min-width: 1201px)
+
+
+
+1 2 3 4 6 8 12
