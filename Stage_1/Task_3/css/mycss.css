@@ -23,12 +23,12 @@ div.img_box img{
 	height: 100%;
 }
 div.container{
-	height: 650px;
+	height: auto;
 	background: #eee;
 	border: 1px solid #999;
 	padding: 20px;
 	margin: 10px;
-	position: relative;
+	overflow: hidden;
 	zoom: 1;
 	
 }
@@ -40,15 +40,13 @@ div.container:after{
 }
 div.left_box{
 	float: left;
-	overflow: auto;
 	zoom: 1;
 	width: 160px;
 	padding: 20px;
 	background: white;
 	border: 1px solid #999;
-	position: absolute;
-	left: 10px;
-	top: 10px;
+	margin-top: 5px;
+	margin-left: 5px;
 }
 div.group_name{
 	float: right;
@@ -57,17 +55,13 @@ div.center_box{
 	background: white;
 	border: 1px solid #999999;
 	padding: 20px;
-	left: 220px;
-	right: 145px;
-	top: 10px;
-	position: absolute;
+	margin:5px 145px 0px 220px;
 }
 div.right_box{
+	margin-top: 5px;
+	margin-right: 2px;
 	float: right;
 	width: 120px;
 	background: white;
 	border: 1px solid #999999;
-	top: 10px;
-	right: 10px;
-	position: absolute;
 }
