@@ -1,0 +1,43 @@
+body,div{
+	margin: 0;
+	padding: 0;
+}
+body{
+}
+div.center{
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -100px;
+	width: 400px;
+	height: 200px;
+	background: #eee;
+	position: absolute;
+}
+div.circle{
+	width: 50px;
+	height:50px;
+	background-color: yellow;
+	border: 3px solid yellow;
+	position: absolute;
+}
+.leftTop{
+	top: 0;
+	left: 0;
+	-webkit-border-radius: 0 0 50px 0;
+}
+.leftBottom{
+	bottom: 0;
+	left: 0;
+	-webkit-border-radius: 0 50px 0 0;
+}
+.rightTop{
+	right: 0;
+	top: 0;
+	-webkit-border-radius: 0 0 0 50px;
+}
+.rightBottom{
+	right: 0;
+	bottom: 0;
+	-webkit-border-radius: 50px 0 0 0;
+}
