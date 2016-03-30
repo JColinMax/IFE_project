@@ -1,0 +1,398 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+h4,h5{
+	display: inline;
+}
+
+body{
+	position: relative;
+}
+div.center{
+	width: 980px;
+	height: 1380px;
+	position: absolute;
+	left:50%;
+	margin-left: -490px;
+}
+div.container{
+	width: 892px;
+	height: 1380px;
+	margin-left: 44px;
+	margin-right: 44px;
+}
+div.header{
+	border-bottom:solid 2px  #938e8c;
+	clear: both;
+}
+div.logo{
+	background: indianred;
+	width: 110px;
+	height: 61px;
+	position: relative;
+}
+div.logo p{
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: "黑体";
+	text-align: left;
+	position: absolute;
+	top: 45px;
+	left: 5px;
+}
+.date{
+	font-family: 黑体;
+	font-size: 12px;
+	color: #d45d5c;
+	margin-left: 840px;
+	margin-top: 45px;
+	float: left;
+}
+div.top{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+div.pic_viewer{
+	width: 641px;
+	height: 301px;
+	background-image: url(../img/myoba.jpg);
+	clear: both;
+	float: left;
+}
+div.pic_left{
+	height: 301px;
+	width: 191px;
+	background: greenyellow;
+	opacity: 0.3;	
+	-moz-opacity: 0.3;
+	float: left;
+}
+div.pic_right{
+	height: 301px;
+	width: 191px;
+	background: orangered;
+	opacity: 0.2;	
+	-moz-opacity: 0.2;
+	float: right;
+}
+div.about{
+	width: 203px;
+	border-top: solid 2px #CC8091;
+	float: right;
+}
+div.about h1{
+	font-size: 24px;
+	color: #000000;
+	font-family: "微软雅黑";
+	text-decoration: underline;
+}
+h1.b{
+	margin-top: 40px;
+}
+div.about h1:first-letter{
+	font-size: 30px;
+	font-weight: bold;
+}
+div.about h2{
+	font-size: 12px;
+	color: #676767;
+	font-family: "楷体";
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+div.about h4,h5,h6{
+	font-family: "微软雅黑";
+	color: #cc8091;
+}
+div.about h3{
+	font-size: 116px;
+	color: #75b86b;
+	font-style: italic;
+	text-decoration: underline;
+}
+div.about h4{
+	font-size: 55px;
+}
+div.about h5{
+	font-size: 21px;
+	position: absolute;
+	bottom: 13px;
+}
+div.about h6{
+	font-size: 12px;
+}
+div.text_display{
+	margin-top: 39px;
+	margin-right: 2px;
+	float: right;
+	position: relative;
+}
+p{
+	font-family: "微软雅黑";
+}
+p.title{
+	font-size: 16px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+p.banner1{
+	color: #418c59;
+}
+p.banner2{
+	color: #d2994f;
+}
+p.banner3{
+	color: #cc7680;
+}
+p.sec{
+	font-size: 12px;
+	margin-bottom: 16px;
+	margin-top:16px;
+}
+p.section1{
+	color: #767777;
+	font-family: "宋体";
+}
+p.section2{
+	color: #231815;
+	font-family: "微软雅黑";
+	opacity: 0.7;
+}
+div.text_content{
+	margin-top: 340px;
+	display: flex;
+	display: -webkit-flex;
+}
+div.articleL{
+	width: 40%;
+	padding: 10px;
+	float: left;
+}
+div.articleC{
+	width: 30%;
+	padding: 10px;
+	float: left;
+}
+div.articleR{
+	width: 30%;
+	padding: 10px;
+	float: left;
+}
+p.summary{
+	margin: 8px 0px;
+}
+span.percent{
+	color: #cd4a48;
+	font-style: italic;
+	opacity: 0.7;
+}
+div.title{
+	color: #11456b;
+	font-family: "黑体";
+	font-weight: bold;
+}
+.title h1{
+	font-size: 42px;
+	margin-bottom: 16px;
+}
+span.firstWord{
+	color: #f5e327;
+	font-style: italic;
+	font-size: 72px;
+}
+.title h2{
+	font-size: 33px;
+	margin-bottom: 5px;
+}
+div.leftBottom{
+	width: 415px;
+	float: left;
+	margin-top: 40px;
+}
+div.items{
+	border-top: solid 2px #11456B;
+	clear: both;
+}
+div.items p{
+	font-size: 12px;
+	color: #767777;
+	font-family: "宋体";
+}
+div.items img{
+	width: 50%;
+	height: 30%;
+	float: right;
+}
+p.article{
+	text-indent: 2em;
+}
+p.firstSection{
+	margin-top: 16px;
+}
+p.firstSection:first-letter{
+	font-size: 70px;
+	color: #F5E327;
+	font-family: "微软雅黑";
+	text-indent: 0;
+	float: left;
+	margin: 0 5px;
+	padding: 0;
+}
+div.rightBottom{
+	float: right;
+	width: 458px;
+	margin-top: 40px;
+}
+div.pic_viewer2{
+	background-image: url(../img/oba.jpg);
+	width: 459px;
+	height: 275px;
+	position: relative;
+}
+div.stayBottom{
+	position: absolute;
+	bottom: 0;
+	width: 458px;
+	height: 61px;
+	background:rgba(0,0,0,0.2);
+}
+div.stayBottom p{
+	display: inline;
+	font-family: "微软雅黑";
+}
+div.text_box{
+	border-left: solid #72B16A 3px;
+	padding: 5px;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 7px;
+}
+p.pic_desc1{
+	font-size: 26px;
+	color: #FFFFFF;
+}
+p.pic_desc2{
+	font-size: 12px;
+	color: #72b16a;
+	font-style: italic;
+}
+div.menus{
+	widows: 459px;
+	height: 298px;
+	background: antiquewhite;
+	margin-top: 15px;
+	padding-top: 20px;
+	position: relative;
+}
+ul{
+	list-style: none;
+	margin-left: 20px;
+}
+ul li{
+	font-size: 16px;
+	color: #5A5B5B;
+	font-family: "宋体";
+	text-align: left;
+	margin-bottom: 20px;
+}
+span.last{
+	font-size: 12px;
+	color: #5a5b5b;
+	font-family: "宋体";
+	font-style: italic;
+	margin-bottom: 20px;
+	text-align: right;
+}
+span.triangle{
+	display: inline-block;
+	border-color: antiquewhite antiquewhite #11456B;
+	border-style: solid;
+	border-width: 0px 6px 9px;
+	height: 0;
+	width: 0;
+	margin: 0 5px;
+	padding: 0;
+}
+div.finalBottomLeft{
+	padding-left: 10px;
+	padding-top: 20px;
+	width: 250px;
+	height: 140px;
+	background: #CD4A48;
+	display: -webkit-flex;
+	display: inline-flex;
+	bottom: 0px;
+	position: absolute;
+}
+div.finalBottomLeft p{
+	color: #FFFFFF;
+	font-family: "微软雅黑";
+	font-size: 110px;
+}
+div.textLeft{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+div.textRight{
+	border-left: solid #FFFFFF 2px;
+	margin: 20px 5px 0 25px;
+	padding:0 10px;
+	height: 86px;
+	overflow: hidden;
+}
+div.textRight p{
+	font-size: 12px;
+	margin-bottom: 6px;
+	font-family: "黑体";
+	color: #FFFFFF;
+}
+div.textRight :first-child{
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+div.finalBottomRight{
+	float: right;
+	width: 158px;
+	margin-top: 15px;
+	margin-right: 20px;
+}
+.mywords{
+	font-size: 14px;
+	color: #5A5B5B;
+	font-family: "黑体";
+	font-style: italic;
+	margin-bottom: 16px;
+	margin-top: 30px;
+}
+div.finalBottomRight span{
+	font-size: 14px;
+	color: #5A5B5B;
+	font-family: "黑体";
+	font-style: italic;
+	font-size: 72px;
+	color: #D45D5C;
+	margin-bottom: 0px;
+}
+span.left{
+	float: left;
+}
+span.right{
+	float: right;
+	margin-top:-30px;
+}
+div.footer{
+	border-top: solid 1px #938E8C;
+	height: 40px;
+	width: 892px;
+	margin-left: 44px;
+	margin-top: -40px;
+	text-align: right;
+}
+div.footer p{
+	margin-right: 10px;
+	font-size: 12px;
+	color: #D45D5C;
+	font-family: "黑体";
+}
