@@ -623,11 +623,170 @@ div.bottomTable button{
 	float: right;
 	margin-top: -23px;
 }
+div.selectBox{
+	text-align: center;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 310px;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+}
+div.selectBox select{
+	float: left;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border: solid 1px #cacbcb;
+	width: 65px;
+	height: 22px;
+	font-size: 12px;
+	color: #535353;
+	border-radius: none;
+	padding-left: 7px;
+	background: #FFFFFF url(../img/arrowDown.png) 90% no-repeat ;
+}
+div.selectBox :nth-child(2){
+	width: 84px;
+	padding-left: 30px;
+	background-position: 70%;
+}
+div.selectBox :nth-child(3){
+	width: 74px;
+}
+div.selectBox button{
+	height: 22px;
+	width: 65px;
+	background: #FFFFFF;
+	border: 1px solid #CACBCB;
+}
+div.calendar{
+	margin: 5px auto;
+	width: 309px;
+	color: #535353;
+	font-size: 12px;
+}
+ul.date{
+	width: 100%;
+	height: 31px;
+	border-left: none;
+	border-right: none;
+	border-top: 1px solid #2189BF;
+	border-bottom: 1px solid #CACBCB;
+	margin: 0 auto;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+}
+ul.date li{
+	float: left;
+	list-style: none;
+	margin: auto;
+}
+table.ctable{
+	margin-top: 10px;
+	border-collapse: separate;
+	border-spacing: 2px;
+	width: 100%;
+	height: 220px;
+	border: white;
+}
+table.ctable tr ,
+table.ctable td{
+	border: white;
+} 
+table.ctable td :nth-child(2){
+	font-size: 11.36px;
+}
+table.ctable tr :nth-child(6) :nth-child(1),
+table.ctable tr :nth-child(7) :nth-child(1){
+	color: #c9161d;
+}
+td.red :nth-child(2){
+	color: #C9161D;
+}
+td.cross{
+	border: solid 1px yellow !important;
+}
+div.calendarBox{
+	background: #FFFFFF;
+	width: 351px;
+	height: 365px;
+	float: left;
+	border-radius: 15px;
+	border: 1px solid #AAAAAA;
+	margin-top: 10px;
+	margin-left: 62px;
+}
+div.ranking{
+	width: 563px;
+	height: 365px;
+	background: white;
+	float: left;
+	border-radius: 15px;
+	border: 1px solid #AAAAAA;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+div.ranking table{
+	border: solid 1px #AAAAAA;
+	border-collapse: collapse;
+	margin: 10px auto;
+	width: 451px;
+	height: 276px;
+}
+div.ranking tr,div.ranking td, div.ranking th{
+		border: solid 1px #AAAAAA;
+}
+div.ranking th{
+	font-weight: bolder;
+	font-size: 13px;
+	color: #231815;
+}
+div.ranking td{
+	font-size: 12px;
+	color: #323333;
+}
+div.progress{
+	margin-top: 3px;
+	margin-left: 2px;
+	width: 169px;
+	height: 5px;
+	background: #C3C2C2;
+	float: right;
+}
+div.progress div{
+	width: 80%;
+	height: 100%;
+	background: red;
+}
+div.ranking tbody tr :nth-child(3) p{
+	float: right;
+	margin-top: 3px;
+	margin-left: 30px;
+}
+div.ranking tbody tr :nth-child(3){
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	-webkit-align-items: center;
+	border-collapse: collapse;
+	border: none;
+	width: 100%;
+	height: 100%;
+}
 
-
-
-
-
+div.ranking table tr :nth-child(3){
+	width: 290px;
+}
+.fcol{
+	width: 70px;
+}
+div.ranking tbody td:hover{
+	background-color: #D8D8DB;
+	cursor: pointer;
+}
 
 
 
